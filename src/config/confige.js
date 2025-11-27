@@ -1,5 +1,5 @@
 import img1 from '../assets/images/app-logo-rbg.png'
-import musicFile1 from '../assets/audio/vol1/Suprabhatham in Telugu 1.mp3'
+import musicFile1 from '../assets/audio/vol1/Gayatri Mantra (3).mp3'
 
 
 export const TrendingCardData = [
