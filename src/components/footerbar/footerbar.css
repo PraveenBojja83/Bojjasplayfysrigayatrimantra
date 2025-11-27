@@ -1,0 +1,36 @@
+.footerbar {
+    display: flex;
+    padding: 20px;
+    max-width: 99vw;
+    height: 8vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background: linear-gradient(to left, rgb(78, 78, 78), rgb(14, 15, 14));
+    color: white; /* Text color */
+    font-family: Arial, sans-serif;
+    /* border: 2px solid red; */
+}
+
+.footerbar-content h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .footerbar {
+    padding: 8px 0;
+  }
+
+  .footerbar-content h2 {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+

@@ -1,0 +1,29 @@
+.mainSectionContainer{
+    /* border: 2px solid yellow;  */
+    display: flex;
+    padding: 10px;
+    max-width: 99vw;
+    height: 80vh;
+    margin: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background: linear-gradient(to right, rgb(78, 78, 78), rgb(14, 15, 14));
+    color: white; /* Text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 400px) {
+    .mainSectionContainer {
+        padding: 5px 5px;
+        height: 62vh;
+        margin: 2px;
+        border-radius: 8px;
+        gap: 15px;
+        font-size: 0.95rem;
+    }
+}
+
+

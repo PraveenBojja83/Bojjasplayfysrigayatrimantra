@@ -1,0 +1,65 @@
+.trendingCardMainCointainer{
+    /*border: 2px solid blue;*/  
+    border-radius: 2px;
+    width:180%;
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    .trendingCardMainCointainer {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px;
+        margin: auto;
+       
+
+    }
+  }
+
+.CardMainCointainer{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       
+}
+
+.CardMainCointainer img{
+    width: 50%;
+    height: 50%;
+}
+
+.CardMainCointainer h2{
+    width: 90%;
+    height: 10%;
+    margin-top: 2px;
+    font-size: 1.0rem;
+    text-align: center;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+.CardMainCointainer p {
+  width: 100%;           /* Fixed: added % */
+  height: auto;          /* Changed: let height adjust to content */
+  margin-top: 2px;
+  margin: 0 auto;        /* Centered with proper margin */
+  font-size: 1.0rem;
+  text-align: center;
+  flex: none;            /* Removed flex: auto (not needed for single p) */
+  word-wrap: break-word; /* Forces long words to break */
+  overflow-wrap: break-word; /* Modern alternative */
+  white-space: normal;   /* Allows text to wrap naturally */
+  line-height: 1.4;      /* Better readability */
+  padding: 0 8px;        /* Small padding to prevent edge clipping */
+}
+
+
+
